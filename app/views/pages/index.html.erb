@@ -1,2 +1,7 @@
-<h1>Pages#index</h1>
-<p>Find me in app/views/pages/index.html.erb</p>
+
+<nav class = "navbar navbar-default">
+	<ul class = "nav nav-tabs">
+		<li class="<%='active' if current_page?(root_path)%>"><%= link_to('Home', root_path)%></li>
+				
+	</ul>
+</nav>
